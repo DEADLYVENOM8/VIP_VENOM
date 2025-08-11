@@ -217,17 +217,17 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://vault.pictures/p/15d7a5f711284e29a8fe759dc1003536",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://vault.pictures/p/789251961aa4415b8ac676c20343d7e1",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://vault.pictures/p/f3532d69f9d74da9afd19a3e2fd45ccd",
 )
 
 GLOBAL_IMG_URL = getenv(
