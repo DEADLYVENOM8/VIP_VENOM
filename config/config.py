@@ -18,9 +18,9 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "20150567"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH" "cef1614861642e9878b0b9db2f76653b")
 
 
 ## Get it from @Botfather in Telegram.
@@ -70,7 +70,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002223516578"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001511253627"))
 
 
 # Your User ID.
@@ -114,15 +114,15 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/YOUR_CRUSH_CODER"
-)  # Example:- https://t.me/VIP_CREATORS
+    "SUPPORT_CHANNEL", "https://t.me/ABOUT_DEADLY_VENOM"
+)  # Example:- https://t.me/ABOUT_DEADLY_VENOM
 SUPPORT_GROUP = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/YOUR_CRUSH_CODER"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "SUPPORT_CHANNEL", "https://t.me/NOBITA_SUPPORT"
+)  # Example:- https://t.me/NOBITA_SUPPORT
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/YOUR_CRUSH_CODER"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "SUPPORT_CHANNEL", "https://t.me/ABOUT_DEADLY_VENOM"
+)  # Example:- https://t.me/ABOUT_DEADLY_VENOM
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 
